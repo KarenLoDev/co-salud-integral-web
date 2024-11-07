@@ -1,53 +1,47 @@
-var Swipwer = new Swipwer(".mySwiper-1",{
-    slidesperview:1,
-    spacebetween:30,
+var swiper = new Swiper(".mySwiper-1", {
+    slidesPerView:1,
+    spaceBetween: 30,
     loop:true,
-    pagination : {
-        el:".Swiper-pagination",
-        clickable:true,
+    pagination: {
+        el:".swiper-pagination",
+        clickable: true,
     },
-    navigation:{
-        nextEl:".Swiper-button-next",
-        prevEl:".Swiper-button-prev",
+    navigation: {
+        nextEl:".swiper-button-next",
+        prevEl:".swiper-button-prev",
     }
-
 });
 
-var Swiperwipwer = new Swipwer(".mySwiper-2",{
-    slidesperview:3,
-    spacebetween:20,
+var swiper = new Swiper(".mySwiper-2", {
+    slidesPerView:3,
+    spaceBetween: 20,
     loop:true,
-    loopFillGroupWithBlank : true,
-     navigation:{
-        nextEl:".Swiper-button-next",
-        prevEl:".Swiper-button-prev",
+    loopFillGroupWithBlank: true,
+    navigation: {
+        nextEl:".swiper-button-next",
+        prevEl:".swiper-button-prev",
     },
     breakpoints : {
         0: {
-            slidesperview:1,
+            slidesPerView: 1,
         },
         520: {
-            slidesperview:2,
+            slidesPerView: 2,
         },
         950: {
-            slidesperview:3,
+            slidesPerView: 3,
         }
-
     }
-
 });
 
-let tapInputs = document.querySelectorAll("tabInput");
 
-tapInputs.forEach(function(input){
+let tabInputs = document.querySelectorAll(".tabInput");
 
-    input.addEventListener('change',function() {
-        let id =input.ariaValueMax;
-        let thisSwiper = document.getElementById('swiper'+ id);
-        thisSwiper.Swiper.update();
+tabInputs.forEach(function(input) {
 
+    input.addEventListener('change', function() {
+        let id = input.ariaValueMax;
+        let thisSwiper = document.getElementById('swiper' + id);
+        thisSwiper.swiper.update(); 
     })
-
-
-
 });
