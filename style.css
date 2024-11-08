@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #070707;
+  background-color: #65b2d1;
   font-family: "Poppins", sans-serif;
 }
 
@@ -26,19 +26,19 @@ body {
 }
 
 .swiper-button-next {
-    color: #db241b;
+    color: hsl(0, 0%, 6%);
 }
 .swiper-button-prev {
-    color: #db241b; 
+    color: hsl(0, 0%, 6%);
 }
 
 .swiper-pagination-bullet {
-    background-color: #fff;
+    background-color: #ffffff;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #DB241B;
+    background-color: #ffffff;
 }
 
 .menu {
@@ -82,12 +82,12 @@ body {
     margin: 0 10px;
     height: 40px;
     width: 40px;
-    border: 1px solid #DB241B;
+    border: 1px solid #111111;
     border-radius: 50%;
 }
 
 .social:hover {
-    background-color: #DB241B;
+    background-color: #447291;
 }
 
 .social img {
@@ -102,12 +102,12 @@ body {
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #fff;
+    color: #121e30;
     display: block;
 }
 
 .menu .navbar ul li a:hover {
-    color:#e70e0e
+    color:#ffffff;
 }
 
 #menu {
@@ -141,14 +141,14 @@ body {
 
 .slider-txt h1 {
     font-size: 70px;
-    color:#fff;
+    color:#092247;
     text-transform: uppercase;
     font-weight: 800;
 }
 
 .slider-txt p {
     font-size: 18px;
-    color: #a7a7a7;
+    color: #0f0f0f;
 }
 
 .botones {
@@ -158,8 +158,8 @@ body {
 .btn-1 {
     display: inline-block;
     padding: 15px 35px;
-    border: 2px solid #DB241B;
-    color: #fff;
+    border: 2px solid #092247;
+    color: #0f3866;
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -168,7 +168,7 @@ body {
 }
 
 .btn-1:hover {
-    background-color: #DB241B;
+    background-color: #4ebef1;
 }
 
 .slider-img {
@@ -181,7 +181,7 @@ body {
 }
 
 .products {
-    background-color: #0d0d0d;
+    background-color: #4f5155bb;
 }
 
 .tabs {
@@ -197,7 +197,7 @@ body {
     padding: 20px 0;
     text-align: center;
     cursor: pointer;
-    color: #a7a7a7;
+    color: #0f0f0f;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -217,7 +217,7 @@ body {
 }
 
 .tabs input[type="radio"]:checked + label {
-    border-bottom: 2px solid #DB241B;
+    border-bottom: 2px solid #4ebef1;
     color: #fff;
 }
 
@@ -239,11 +239,11 @@ body {
     display: inline-block;
     padding: 5px 7px;
     line-height: 15px;
-    color: #ffffff;
+    color: #ecf0f3;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 800;
-    border: 2px solid #555555;
+    border: 2px solid #5499da;
     border-radius: 10px;
     margin-bottom: 50px;
 }
@@ -260,7 +260,7 @@ body {
  }
 
  .product-txt h4 {
-    color: #ffffff;
+    color: #f4f8fa;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 800;
@@ -268,13 +268,13 @@ body {
 }
 
 .product-txt p {
-    color:#a7a7a7;
+    color:#eae9f0;
     font-size: 16px;
     margin-bottom: 15px;
 }
 
 .product-txt span {
-    color:#ffffff;
+    color:#efeef5;
     font-size: 18px;
     font-weight: 800;
 }
@@ -299,7 +299,7 @@ body {
 
 .info-txt h2 {
     font-size: 75px;
-    color:#ffffff;
+    color:#20295a;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -307,14 +307,14 @@ body {
 
 .info-txt p {
     font-size: 18px;
-    color:#a7a7a7;
+    color:#0c0c0c;
     margin-bottom: 50px;
 }
 
 .btn-2 {
     display: inline-block;
     padding: 15px 35px;
-    background-color: #DB241B;
+    background-color: #3094d6;
     color: #ffffff;
     font-weight: 880;
     text-transform: uppercase;
@@ -322,12 +322,12 @@ body {
 }
 
 .btn-2:hover {
-    background-color: #f50f0f;
+    background-color: #84878a;
 }
 
 .horario {
     padding: 100px 0px;
-    background-color: #0a0a0a;
+    background-color: #4f5155bb;
 }
 
 .horario-info{
@@ -338,7 +338,7 @@ body {
 
 .horario h2 {
     font-size: 75px;
-    color: #ffffff;
+    color: #20295a;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -382,13 +382,13 @@ body {
 }
 
 .links h4 {
-    color:#ffffff;
+    color:#2e436b;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 
 .links ul li a {
-    color:#ffffff;
+    color:#eee9e9;
     font-size: 16px;
     margin-bottom: 5px;
     display: inline-block;
@@ -549,3 +549,4 @@ body {
         margin: 25px 0px 10px 0px;
     }
 }
+
