@@ -33,12 +33,12 @@ body {
 }
 
 .swiper-pagination-bullet {
-    background-color: #ffffff;
+    background-color: #d81919;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #ffffff;
+    background-color: #f3f0f1;
 }
 
 .menu {
@@ -172,12 +172,12 @@ body {
 }
 
 .slider-img {
-    width: 50%;
+    width: 35%;
 }
 
 .slider-img img {
-    margin-right: 225px;
-    width: 550px;
+    margin-right: 150px;
+    width: 400px;
 }
 
 .products {
